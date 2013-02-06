@@ -27,7 +27,7 @@ iptables -t nat -A PREROUTING -p tcp -m tcp --dport 9003 -j DNAT --to-destinatio
 iptables -t nat -A POSTROUTING -p tcp -m tcp --dport 9003 -j SNAT --to-source YOUR-SERVER-IP
 ```
 
-###Client
+###Client(for Android)
 
 Download operamini.apk
 
